@@ -70,7 +70,7 @@ git config --global user.email "you@example.com"
 
 With git installed, you can now download a copy of this repository to your machine — this is called "cloning". From the folder you created in step 1:
 ```powershell
-git clone PSL-DL-Labs
+git clone https://github.com/omariott/PSL-DL-Labs
 cd PSL-DL-Labs
 ```
 Your repository URL was shared with you separately (e.g. via GitHub Classroom). Running `ls` afterward should show `README.md`, `minitorch/`, `tests/`, and `labs/`.
@@ -104,11 +104,7 @@ conda install -c conda-forge numpy matplotlib notebook pytest
 
 After `conda activate dl-labs`, your terminal prompt should show `(dl-labs)` at the start of the line: that's your confirmation the environment is active. The `-c conda-forge` flag tells conda which package channel to install from; we'll use `conda-forge` consistently all semester.
 
-Then launch Jupyter:
-```powershell
-jupyter notebook
-```
-This opens Jupyter in your browser. Navigate to `labs/lab01_onboarding.ipynb` and open it, the notebook picks up from here.
+You're all set up!
 
 ## Weekly workflow
 
